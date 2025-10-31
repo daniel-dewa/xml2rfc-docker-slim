@@ -15,3 +15,7 @@ docker run --rm `# automatically remove container upon termination` \
   ghcr.io/daniel-dewa/xml2rfc-slim:latest `# container name` \
   --html example.xml # example.xml input filename, output will be example.html
 ```
+
+## Versioning
+
+The `xml2rfc-slim:<tag>` image tags follow xml2rfc versions, e.g. `xml2rfc-slim:v3.31.0` corresponds to `xml2rfc==3.31.0`.
