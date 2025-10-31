@@ -4,8 +4,8 @@
 
 ## Why?
 
-The official `xml2rfc` docker image (available at `ghcr.io/ietf-tools/xml2rfc-base:latest`) is **2.28 GB**. This is
-a cut-down version made for use in RFC specs, OpenID specs etc.
+The official `xml2rfc` docker image (available at `ghcr.io/ietf-tools/xml2rfc-base:latest`) is **2.28 GB**.
+`xml2rfc-slim` is a cut-down version made for use in RFC specs, OpenID specs etc.
 
 ## Usage
 
