@@ -35,6 +35,6 @@ jobs:
         file: Dockerfile
         platforms: linux/amd64,linux/arm64
         push: true
-        tags:
-          - ghcr.io/daniel-dewa/xml2rfc-slim:latest
-          - ghcr.io/daniel-dewa/xml2rfc-slim:${GITHUB_REF#refs/tags/}
+        tags: |
+          ghcr.io/daniel-dewa/xml2rfc-slim:latest
+          ghcr.io/daniel-dewa/xml2rfc-slim:${GITHUB_REF#refs/tags/}
